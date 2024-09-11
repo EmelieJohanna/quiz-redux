@@ -11,7 +11,6 @@ import { useRouter } from "next/router";
 export default function Home() {
   const router = useRouter();
   const dispatch = useDispatch();
-  // const name = useSelector((state) => state.pointCount.name);
   const name = useSelector(selectName);
 
   const handleInputChange = (e) => {
@@ -20,7 +19,6 @@ export default function Home() {
 
   const handleStartQuiz = () => {
     if (name) {
-      // dispatch(setName(name));
       router.push("/quizpage");
     }
   };
