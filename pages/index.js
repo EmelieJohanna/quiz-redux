@@ -68,6 +68,7 @@ export default function Home() {
               className="h-auto w-[400px]"
               src={AppleLogo}
               style={{ objectFit: "contain" }}
+              alt="apple logo"
             ></Image>
           </div>
         </div>
